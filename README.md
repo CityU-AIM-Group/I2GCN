@@ -7,7 +7,7 @@ This repository is an official PyTorch implementation of the paper **"Instance I
 
 
 ### Download
-The processed CC-CCII dataset can be downloaded from [Google Drive]. Put the downloaded .npy files in a newly-built folder ```./data/```.
+The processed CC-CCII dataset can be downloaded from [Google Drive]. Put the downloaded .npy files in a newly-built folder ```./data/```. Please note that among the three-fold cross-validation with random split, the performance of ```split1``` and ```split2``` is slightly higher than the ```split0```.
 
 ## Dependencies
 * Python 3.6
@@ -29,7 +29,7 @@ mkdir experiment; mkdir data
 ```python
 python ./main.py --theme default --test_split 2 
 ```
-
+We provide the dataloader with two ways of loading npy files, including ```online``` and ```offline```.
 
 ## Cite
 If you find our work useful in your research or publication, please cite our work:
