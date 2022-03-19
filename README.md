@@ -2,7 +2,7 @@
 This repository is an official PyTorch implementation of the paper **"Instance Importance-Aware Graph Convolutional Network for 3D Medical Diagnosis"** [[paper](https://www.sciencedirect.com/science/article/pii/S136184152200072X)] from Medical Image Analysis 2022.
 
 
-## (I<sup>2</sup>GCN) for 3D Medical Diagnosis
+## I<sup>2</sup>GCN for 3D Medical Diagnosis
 <div align=center><img width="600" src=/fig/framework.png></div>
 
 ## Dependencies
