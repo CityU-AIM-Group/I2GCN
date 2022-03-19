@@ -5,12 +5,30 @@ This repository is an official PyTorch implementation of the paper **"Instance I
 ## I<sup>2</sup>GCN for 3D Medical Diagnosis
 <div align=center><img width="600" src=/fig/framework.png></div>
 
+
+### Download
+The processed CC-CCII dataset can be downloaded from [Google Drive]. Put the downloaded .npy files in a newly-built folder ```./data/```.
+
 ## Dependencies
 * Python 3.6
 * PyTorch >= 1.3.0
 * numpy 1.19.4
 * scikit-learn 0.24.2
 * scipy 1.3.1
+
+
+## Code
+Clone this repository into any place you want.
+```bash
+git clone https://github.com/CityU-AIM-Group/I2GCN.git
+cd I2GCN
+mkdir experiment; mkdir data
+```
+## Quickstart 
+* Train the I2GCN with default settings:
+```python
+python ./main.py --theme default --test_split 2 
+```
 
 
 ## Cite
