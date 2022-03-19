@@ -29,7 +29,7 @@ mkdir experiment; mkdir data
 ## Quickstart 
 * Train the I2GCN with default settings:
 ```python
-python ./main.py --theme default --test_split 2 
+python ./main.py --theme default --test_split 1 --online_flag 1
 ```
 We provide the dataloader with two ways of loading npy files, including ```online``` and ```offline```.
 
