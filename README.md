@@ -6,7 +6,7 @@ This repository is an official PyTorch implementation of the paper **"Instance I
 <div align=center><img width="600" src=/fig/framework.png></div>
 
 * Considering the high cost of collecting exhaustive annotations for 3D data, a sustainable alternative is to develop diagnosis algorithms with merely patient-level labels. We propose the Instance Importance-aware Graph Convolutional Network (I<sup>2</sup>GCN) under the multi-instance learning (MIL). 
-* Using a preliminary MIL classifier, we first calculate the instance importance of each slice towards diagnosis, which is further utilized to promote the refined diagnosis branch. In the refined diagnosis branch, we devise the Instance Importance-aware Graph Convolutional Layer (I<sup>2</sup>GCLayer) to exploit complementary features in both importance-based and feature-based topologies. Moreover, the importance-based Sub-Graph Augmentation (SGA) is devised to alleviate the deficient supervision of 3D dataset.
+* Using a preliminary MIL classifier, we first calculate the instance importance of each slice towards diagnosis. In the refined diagnosis branch, we devise the Instance Importance-aware Graph Convolutional Layer (I<sup>2</sup>GCLayer) to exploit complementary features in both importance-based and feature-based topologies. Moreover, the importance-based Sub-Graph Augmentation (SGA) is devised to alleviate the deficient supervision of 3D dataset.
 
 ### Download
 The processed CC-CCII dataset can be downloaded from [Google Drive]. Put the downloaded .npy files in a newly-built folder ```./data/```. Please note that among the three-fold cross-validation with random split, the performance of ```split1``` and ```split2``` is slightly higher than the ```split0```.
