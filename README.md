@@ -9,7 +9,7 @@ This repository is an official PyTorch implementation of the paper **"Instance I
 * Using a preliminary MIL classifier, we first calculate the instance importance of each slice towards diagnosis. In the refined diagnosis branch, we devise the Instance Importance-aware Graph Convolutional Layer (I<sup>2</sup>GCLayer) to exploit complementary features in both importance-based and feature-based topologies. Moreover, the importance-based Sub-Graph Augmentation (SGA) is devised to alleviate the deficient supervision of 3D dataset.
 
 ### Download
-The processed CC-CCII dataset can be downloaded from [Google Drive]. Put the downloaded .npy files in a newly-built folder ```./data/```. Please note that among the three-fold cross-validation with random split, the performance of ```split1``` and ```split2``` is slightly higher than the ```split0```.
+The processed CC-CCII dataset can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1O4TdIJAWqk5hINbKmgdVfmv7zQg1gqbq?usp=sharing). Put the downloaded .npy files in a newly-built folder ```./data/```. Please note that among the three-fold cross-validation with random split, the performance of ```split1``` and ```split2``` is slightly higher than the ```split0```.
 
 ## Dependencies
 * Python 3.6
