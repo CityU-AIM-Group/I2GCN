@@ -27,7 +27,7 @@ cd I2GCN
 mkdir experiment; mkdir data
 ```
 ## Quickstart 
-* Train the I2GCN with default settings:
+* Train the I<sup>2</sup>GCN with default settings:
 ```python
 python ./main.py --theme default --test_split 1 --online_flag 1
 ```
