@@ -3,7 +3,7 @@ This repository is an official PyTorch implementation of the paper **"Instance I
 
 
 ## (I<sup>2</sup>GCN) for 3D Medical Diagnosis
-<div align=center><img width="600" src=/fig/framework.pdf></div>
+<div align=center><img width="600" src=/fig/framework.png></div>
 
 ## Dependencies
 * Python 3.6
